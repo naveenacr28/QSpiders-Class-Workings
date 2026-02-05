@@ -1,0 +1,114 @@
+<!--
+List in HTML
+1. collection of items is called as list
+2. in HTML we have 4 types of list
+    a. ordered list
+    b. unordered list
+    c. nested list
+    d. discription list or discriptive list
+---------------------------------------------
+a. ordered list
+     <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Grape</li>
+    </ol>
+    we have 3 different attributes     
+    i. type
+    ii. start
+    iii. reversed
+
+    i. type: 
+        1. display a type values
+        2. type value can be a numeric value, uppercase alphabet, lower case alphabet, uppercase roman number, lower case number
+        3. default will be numeric format
+
+--------------------------------------------------------
+    ii. start:
+
+
+--------------------------------------------------------
+b. unordered list
+    we have 3 different attributes
+    i. disc
+    ii. circle
+    iii. square
+----------------------------------------------------------
+c. nested list
+    1. nested list is collection of elements in both ordered way and unordered way
+
+
+-----------------------------------------------------------
+d. discription list/ discriptive list
+    1. we used to define terms and their discription in webpage
+    2. to do that we use <dl>, <dt>, <dd> tags
+    3. currently this list types is deprecated
+    4. ex: <dl>
+            <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dd>
+    </dl>
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <li>Java FullStack</li>
+        <ul>
+            <li>Java</li>
+            <li>Web</li>
+            <li>SQL</li>
+            <li>Apti</li>
+        </ul>
+        <br>
+        <br>
+        <li>MERN FullStack</li>
+        <ul>
+            <li>MongoDB</li>
+            <li>Express JS</li>
+            <li>Express JS</li>
+            <li>React JS</li>
+            <li>Node JS</li>
+        </ul>
+    </ol>
+
+    <!--ordered list-->
+    <ol>
+        <li>red</li>
+        <li>green</li>
+        <li>pink</li>
+    </ol>
+    <ol>
+        <li>apple</li>
+        <li>mango</li>
+        <li>pineapple</li>
+    </ol>
+    <ul>
+        <li>java</li>
+        <li>sql</li>
+        <li>webtech</li>
+    </ul>
+    <ul type = "I" start = "3">
+        <li>red</li>
+        <li>green</li>
+        <li>pink</li>
+        <ul>
+            <li>Deep pink</li>
+            <li>Hot pink</li>
+        </ul>
+    </ul>
+    <ul type = "square">
+        <li>apple</li>
+        <li>mango</li>
+        <li>pineapple</li>
+    </ul>
+</body>
+</html>
+
