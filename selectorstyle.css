@@ -1,0 +1,44 @@
+/* id selector */
+
+#head1 {
+    color: yellow;
+    background-color: red;
+}
+
+#para1 {
+    color: aqua;
+    background-color: blue;
+}
+
+#shirt {
+    color: aqua;
+    background-color: yellow;
+}
+
+#pant {
+    color: blue;
+    background-color: yellowgreen;
+}
+/* 
+class selector */
+
+.lorem20{
+    color: purple;
+}
+/* 
+tag selector
+ */
+
+p{
+    color: rgb(195, 254, 0);
+}
+/* 
+grouping selector
+ */
+h1,h2,p{
+    background-color: yellowgreen;
+    color: blue;
+}
+/* 
+universal selector
+ */

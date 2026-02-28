@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /* <!--1. Descendent Selector : used to target child, grand child, great child elements
+            represents with symbol [space] --> */
+
+        /* section p{
+            background-color: red;
+        } */
+
+/* 
+        <!2. Child Selecto: used to target children element only, represents with the symbol >----> */
+        /* section>p{
+            background-color: yellow;
+        } */
+
+        /* <!--3. Adjacent Sibling Selector: used to target 1st sibling to the parent element,
+            represents with the symbol + --> */
+        /* section+p{
+            background-color: skyblue;
+        } */
+
+        /* <!--4. General Sibling Selector: used to target all sibling elements to the parent,
+            represents with the symbol --> */
+        section~p{
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <p>This is paragraph 1</p>
+        <p>This is paragraph 2</p>
+        <div>
+            <p>This is paragraph 3</p>
+        </div>
+        <p>This is paragraph 4</p>
+    </section>
+    <p>This is paragraph 5</p>
+    <p>This is paragraph 6</p>
+</body>
+</html>

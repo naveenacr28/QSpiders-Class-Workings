@@ -1,0 +1,91 @@
+<!--
+Border Properties:
+1. border-width:
+2. border-style:
+3. border-color:
+4. border
+5. border-radius:
+
+article#id1>aside.class1*8
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 1100px;
+            width: 1100px;
+            border: 10px solid rgb(10, 10, 10);
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            border-width: 10px;
+        }
+        #id1{
+            border-style: solid;
+            border-color: yellow;
+        }
+        #id2{
+            border-style: dotted;
+            border-color: rgb(133, 24, 215);
+        }
+        #id3{
+            border-style: dashed;
+            border-color: rgb(10, 177, 80);
+        }
+        #id4{
+            border-style: double;
+            border-color: rgb(213, 70, 153);
+        }
+        #id5{
+            border-style: groove;
+            border-color: rgb(237, 69, 13);
+            border-radius: 50%;
+        }
+        #id6{
+            border-style: inset;
+            border-color: rgb(32, 223, 240);
+            border-radius: 30px;
+        }
+        #id7{
+            border-style: outset;
+            border-color: rgb(106, 141, 24);
+        }
+        #id8{
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            border-style: groove;
+            border-color: rgb(42, 215, 30);
+        }
+        #id9{
+            border-left: 10px solid;
+            border-right: 10px double;
+            border-bottom: 10px dashed;
+            border-top: 10px dotted;
+            border-color: rgb(188, 114, 11);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div id="id1" class="ClassA"></div>
+        <div id="id2" class="ClassA"></div>
+        <div id="id3" class="ClassA"></div>
+        <div id="id4" class="ClassA"></div>
+        <div id="id5" class="ClassA"></div>
+        <div id="id6" class="ClassA"></div>
+        <div id="id7" class="ClassA"></div>
+        <div id="id8" class="ClassA"></div>
+        <div id="id9" class="ClassA"></div>
+    </section>
+</body>
+</html>

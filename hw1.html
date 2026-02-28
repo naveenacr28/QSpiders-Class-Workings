@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            width: 800px;
+            background-color: blue;
+        }
+        legend{
+            text-align: center;
+        }
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        button{
+            text-align: center;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="app form">
+        <fieldset>
+            <h1>Application Form</h1>
+            <br>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+    
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="dob">Date Of Birth:</label>
+            <input type="date" id="dob" name="dob">
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="10" max="60">
+            <br><br>
+            <label for="gender">Gender:</label>
+            <select name="select" id="select">select
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter email address">
+            <br><br>
+            <label for="position">Position Available</label>
+            <input type="radio" id="position" name="position" value="junior developer">Junior Developer
+            <input type="radio" id="position" name="position" value="mid level developer">Mid-level Developer
+            <input type="radio" id="position" name="position" value="senior developer">senior Developer
+            <br><br>
+            <label for="pl">Programming Language</label>
+            <input type="checkbox" id="pl" name="pl" value="java">Java
+            <input type="checkbox" id="pl" name="pl" value="javascript">JavaScript
+            <input type="checkbox" id="pl" name="pl" value="python">Python
+            <br><br>
+            <label for="psw">Password</label>
+            <input type="password" id="psw" name="psw">
+            <label for="confirm psw">Confirm Password</label>
+            <input type="password" id="confirm psw" name="confirm psw">
+            <br><br>
+            <button>Submit</button>
+            <button>Reset</button>
+        </fieldset>
+    </form>
+</body>
+</html>

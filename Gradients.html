@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            border: 10px solid;
+            height: 550px;
+            width: 750px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .child{
+            border: 1px solid;
+            width: 150px;
+            height: 150px;
+        }
+        #id1{
+            background: linear-gradient(yellow,red);
+        }
+        #id2{
+            background: repeating-linear-gradient(yellow,red 20px);
+        }
+        #id3{
+            background: repeating-radial-gradient(red,yellow,orange 20px);
+        }
+        #id4{
+            background: repeating-radial-gradient(red,yellow,orange);
+        }
+        #id5{
+            background: linear-gradient(orange 33.33%,white 33.33%,white 66.66%,green 66.66%);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #id6{
+            background: linear-gradient(red);
+        }
+        #chakra{
+            border: 2px solid blue;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: repeating-radial-gradient(to right blue,black,white);
+        }
+    </style>
+</head>
+<body>
+    <section class="parent">
+        <div class="child" id="id1"></div>
+        <div class="child" id="id2"></div>
+        <div class="child" id="id3"></div>
+        <div class="child" id="id4"></div>
+        <div class="child" id="id5">
+            <div id="chakra"></div>
+        </div>
+        <div class="child" id="id6"></div>
+    </section>
+</body>
+</html>
